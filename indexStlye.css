@@ -1,0 +1,20 @@
+#myHeader{
+    padding: 1px;
+    color: #870a01;
+    margin: auto;
+}
+
+.bodyText{
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.font {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
