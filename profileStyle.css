@@ -25,7 +25,7 @@ body {
 div {
   background-color: lightgrey;
   width: 300px;
-  border: 10px outset black;
+  border: 6px outset black;
   padding: 50px;
   margin: 20px;
 }
