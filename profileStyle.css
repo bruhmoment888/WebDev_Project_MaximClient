@@ -29,4 +29,7 @@ div {
   border: 6px outset black;
   padding: 50px;
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
