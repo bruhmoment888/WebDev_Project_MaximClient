@@ -26,7 +26,7 @@ body {
 .centerBox {
   background-color: white;
   width: 300px;
-  border: 6px outset black;
+  border: 6px inset black;
   padding: 50px;
   margin: 20px;
   
