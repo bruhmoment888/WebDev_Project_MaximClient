@@ -23,7 +23,7 @@ body {
     font-style: normal;
 }
 
-div {
+.centerBox {
   background-color: white;
   width: 300px;
   border: 6px outset black;
@@ -33,7 +33,7 @@ div {
 }
 
 .divCenter {
-    display: flex; 
+  display: flex; 
   flex-direction: row; 
   align-items: center; 
   justify-content: center;
