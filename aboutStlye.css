@@ -28,3 +28,10 @@ a:hover {
   transform: scale(1.5); 
 
 }
+
+img {
+  border-style: outset;
+  border-color: #870a01;
+  display: block;
+  margin: auto;
+}
