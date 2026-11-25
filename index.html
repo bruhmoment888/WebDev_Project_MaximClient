@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
 <title>AniTalk-Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="indexStlye.css">
 <style>
 body {
@@ -20,10 +21,12 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #870a01;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 ul li {
-  float: left;
+  flex: 1;
 }
 
 ul li a {
@@ -37,6 +40,27 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+@media screen and (max-width: 768px) {
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        width: 100%;
+    }
+
+    ul li a {
+        text-align: center;
+    }
+    #myHeader {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
 </style>
 </head>
 <body>

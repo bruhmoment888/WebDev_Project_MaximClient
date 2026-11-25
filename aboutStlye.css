@@ -9,6 +9,10 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 20px;
 }
 
 .font {
